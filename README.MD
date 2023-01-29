@@ -7,7 +7,7 @@
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
-![](.img/rabbit1.png)
+![](img/rabbit1.png)
 
 ---
 
@@ -32,11 +32,11 @@ $ pip install pika
 
 Создание очереди сообщений hello
 
-![](.img/rabbit2.png)
+![](img/rabbit2.png)
 
 Создание очереди под названием self_test (для закрепления) материала + видно отработку сообщений очереди hello
 
-![](.img/rabbit3_self_test.png)
+![](img/rabbit3_self_test.png)
 
 ---
 
@@ -75,19 +75,19 @@ $ rabbitmqadmin get queue='hello'
 
 
 Выполнение команды "rabbitmqctl cluster_status" на нодах 1 и 2
-![](.img/rabbit3.1.png)
+![](img/rabbit3.1.png)
 
 Выполнение команды "rabbitmqctl list_policies" (этим мы смотрим политику очередей)
-![](.img/rabbit3.2.png)
+![](img/rabbit3.2.png)
 
 Отправка сообщений при помощи producer и выполнение команды "rabbitmqadmin get queu='hello'"
-![](.img/rabbit3.3.png)
+![](img/rabbit3.3.png)
 
 В consumer мы подключаемся к второй ноде (laba1 ip:192.168.0.17)
-![](.img/rabbit3.5.png)
+![](img/rabbit3.5.png)
 
 Очередь обработана
-![](.img/rabbit3.4.png)
+![](img/rabbit3.4.png)
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
