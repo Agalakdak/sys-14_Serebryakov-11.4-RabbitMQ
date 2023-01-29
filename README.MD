@@ -86,7 +86,7 @@ $ rabbitmqadmin get queue='hello'
 В consumer мы подключаемся к второй ноде (laba1 ip:192.168.0.17)
 ![](img/rabbit3.5.png)
 
-Очередь обработана
+Очередь
 ![](img/rabbit3.4.png)
 
 ## Дополнительные задания (со звёздочкой*)
